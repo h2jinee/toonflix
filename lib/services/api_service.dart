@@ -47,6 +47,6 @@ class ApiService {
         episodesInstances.add(WebtoonEpisodeModel.fromJson(episode));
       }
     }
-    throw episodesInstances;
+    return episodesInstances;
   }
 }
